@@ -15,23 +15,24 @@ html {
     font-family:'Courier New', Courier, monospace;
 }
 
-p {
+/* p {
     text-align: center;
+} */
+
+p.text {
+    margin-left: 100px; 
 }
 
 .text {
     color: white;
-}
-
-#curly {
-    align-self: flex-start;
+    font-size: 35px;
 }
 
 div {
     height: 100%;
     width: max-content;
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* hugs the left border */
     justify-content: center;
     flex-direction: column;
 }
@@ -41,4 +42,9 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+
+#ChessZra {
+    front-end-developer = True;
 }
