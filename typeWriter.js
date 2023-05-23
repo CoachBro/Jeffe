@@ -10,7 +10,7 @@ function typeWriter(idx, elementId, i, callback, ...params) {
     if (i < text[idx].length) {
         document.getElementById(elementId).innerHTML += text[idx][i];
         i += 1;
-        setTimeout(typeWriter, 100, idx, elementId, i, callback, ...params);
+        setTimeout(typeWriter, 50, idx, elementId, i, callback, ...params);
     }
     else {
         // execute a callback function if the callback parameter is invoked
@@ -37,7 +37,7 @@ function backspace(times, elementId, callback, ...params) {
     }
     let sentence = document.getElementById(elementId).innerHTML;
     document.getElementById(elementId).innerHTML = sentence.substring(0, sentence.length - 1)
-    setTimeout(backspace, 100, times - 1, elementId, callback, ...params)
+    setTimeout(backspace, 75, times - 1, elementId, callback, ...params)
 }
 
 // Function: displayText 
