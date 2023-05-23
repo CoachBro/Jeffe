@@ -8,6 +8,7 @@ body {
     height: 100%;
     background-color: black;
     font-size: xx-large;
+    color: aliceblue;
 }
 
 html {
@@ -31,6 +32,14 @@ div {
     align-items: flex-start; /* hugs the left border */
     justify-content: center;
     flex-direction: column;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg)
+    } to {
+        transform: rotate(150deg)
+    }
 }
 
 main {
