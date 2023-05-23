@@ -37,7 +37,7 @@ function backspace(times, elementId, callback, ...params) {
     }
     let sentence = document.getElementById(elementId).innerHTML;
     document.getElementById(elementId).innerHTML = sentence.substring(0, sentence.length - 1)
-    setTimeout(backspace, 75, times - 1, elementId, callback, ...params)
+    setTimeout(backspace, 100, times - 1, elementId, callback, ...params)
 }
 
 // Function: displayText 
