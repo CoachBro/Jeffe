@@ -61,3 +61,9 @@ let iteration = -1;
 const text = ["div.ChessZra {", "front-end-developer = False;", "True;", "}"];
 displayText();
 
+// Add the following code after the displayText function in typeWriter.js
+
+document.getElementById("myButton").addEventListener("click", function() {
+  // Code to execute when the button is clicked
+  alert("Button clicked!");
+});
