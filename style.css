@@ -49,3 +49,11 @@ main {
     height: 100%;
 }
 
+button#myButton {
+  background-color: #4287f5;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
